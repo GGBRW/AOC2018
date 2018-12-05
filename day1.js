@@ -1,0 +1,1 @@
+console.log(require('fs').readFileSync('input.txt').toString().split("\n").reduce((a,b) => +a + +b));
